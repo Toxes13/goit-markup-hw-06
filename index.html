@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- PAGE HEADER -->
-    <header class="page-header">
+    <header class="page-header hide">
       <div class="container">
         <nav class="page-navigator">
           <a class="page-logo-header link" href="./index.html"
@@ -59,7 +59,7 @@
     </header>
     <main>
       <!-- HERO SECTION -->
-      <section class="hero">
+      <section class="hero hide">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
@@ -408,71 +408,67 @@
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="page-footer">
-      <div class="page-footer-all">
-      <div class="page-footer-content">
-      <a class="page-footer-logo link" href="./index.html"
-        >Web<span class="page-footer-logo-span">Studio</span></a
-      >
-      <p class="page-footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-      </div>
-      <div class="page-footer-social">
-        <p class="page-footer-title">Social media</p>
-        <ul class="page-footer-list list">
-          <li class="page-footer-items">
-            <a href="" class="page-footer-link">
-              <svg class="page-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="page-footer-items">
-            <a href="" class="page-footer-link">
-              <svg class="page-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="page-footer-items">
-            <a href="" class="page-footer-link">
-              <svg class="page-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="page-footer-items">
-            <a href="" class="page-footer-link">
-              <svg class="page-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="page-footer-form">
-        <p class="page-footer-caption">Subscribe</p>
-        <form class="page-footer-subscribe" name="subscribe">
-          <label class="page-footer-label">
-            <input 
-            class="page-footer-input"
-            name="user-email" 
-            type="email"
-            placeholder="E-mail">
-          </label>
-          <button class="page-footer-button" type="submit">Subscribe
-            <svg class="page-footer-icon-send" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
+    <footer class="page-footer hide">
+      <div class="container">
+        <div class="page-footer-all">
+          <div class="page-footer-content">
+            <a class="page-footer-logo link" href="./index.html">Web<span class="page-footer-logo-span">Studio</span></a>
+            <p class="page-footer-paragraph">
+              Increase the flow of customers and sales for your business with digital
+              marketing & growth solutions.
+            </p>
+          </div>
+          <div class="page-footer-social">
+            <p class="page-footer-title">Social media</p>
+            <ul class="page-footer-list list">
+              <li class="page-footer-items">
+                <a href="" class="page-footer-link">
+                  <svg class="page-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-footer-items">
+                <a href="" class="page-footer-link">
+                  <svg class="page-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-footer-items">
+                <a href="" class="page-footer-link">
+                  <svg class="page-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-footer-items">
+                <a href="" class="page-footer-link">
+                  <svg class="page-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer-form">
+            <p class="page-footer-caption">Subscribe</p>
+            <form class="page-footer-subscribe" name="subscribe">
+              <label class="page-footer-label">
+                <input class="page-footer-input" name="user-email" type="email" placeholder="E-mail">
+              </label>
+              <button class="page-footer-button" type="submit">Subscribe
+                <svg class="page-footer-icon-send" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- BACKDROP -->
-      <div class="backdrop is-open">
+      <div class="backdrop /*is-open*/ hide">
       <div class="modal">
       <button class="modal-button" type="button" aria-label="Modal close button">
           <svg class="modal-icon" width="8" height="8">
